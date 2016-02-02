@@ -16,11 +16,4 @@ public class SingleNumber {
         }
         return result;
     }
-
-    public static void main() {
-        int[] nums = {1,2,3,1,2,3,4};
-        SingleNumber s = new SingleNumber();
-        int res = s.singleNumber(nums);
-        System.out.println(res);
-    }
 }
